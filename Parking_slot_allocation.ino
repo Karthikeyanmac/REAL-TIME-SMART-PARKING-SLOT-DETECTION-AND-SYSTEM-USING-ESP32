@@ -3,8 +3,8 @@
 #include <WiFiClientSecure.h>
 
 // === WiFi Credentials ===
-const char* ssid     = "KARTHI";
-const char* password = "karthi police";
+const char* ssid     = "qqqqqqqq";
+const char* password = "aaaaaaaa";
 
 // === InfluxDB credentials ===
 const char* influxURL = "https://us-east-1-1.aws.cloud2.influxdata.com/api/v2/write?org=Data_base&bucket=esp32&precision=s";
@@ -148,3 +148,4 @@ void loop() {
 
   delay(2000); // update every 2 sec
 }
+
